@@ -2,8 +2,15 @@
   "name": "@iov/signer-types",
   "version": "1.0.0",
   "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iov-one/signer-types"
+  },
   "author": "IOV SAS <admin@iov.one>",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc"
   },
