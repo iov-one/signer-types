@@ -1,0 +1,15 @@
+{
+  "name": "@iov/signer-types",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "author": "IOV SAS <admin@iov.one>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@cosmjs/proto-signing": "^0.30.1",
+    "@keplr-wallet/types": "^0.11.59",
+    "typescript": "^5.0.4"
+  }
+}
